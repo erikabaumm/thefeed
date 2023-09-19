@@ -10,19 +10,28 @@ body {
 
 header {
     width: 400px;
-    position: fixed;
+    position: fixed; 
     top: 5px;
-    left: 3px;
+    left: 4px;
 }
 
 nav {
+    background-color: #8d9cb5;
+    text-align: center;
+    border-radius: 10px;
     width: 400px;
+    height: 500px;
     position:fixed;
-    top: 200px;
+    top: 230px;
     left: 25px;
     font-size: x-large;
-    color: #8d9cb5;
+    color: #273a5b;
 }
+
+/* #friend_box {
+    color: whitesmoke;
+    background-color: #597097;
+} */
 
 /* a { 
     text-decoration: none;
@@ -46,9 +55,11 @@ main {
 
 #layout {
     background-color: #597097;
-    width: 86%;
+    width: 80%;
     padding: 1%;
     border-radius: 10px;
+    border-style:dotted;
+    border-color: #273a5b;
 
 }
 
@@ -57,6 +68,8 @@ section {
     text-align: center;
     width: 75%;
     border-radius: 10px;
+    border: solid;
+    border-color: #ffccb9;
     margin: auto;
     margin-top: 5%;
     padding: 25px;
@@ -72,9 +85,13 @@ section img {
     margin:auto;
 }
 
+img:hover {
+    opacity: 0.8;
+}
+
 section p {
     text-align:center;
-    background-color:lightslategray;
+    background-color: #597097;
     border-style: inset;
     border-color: black;
     /* position: absolute;
