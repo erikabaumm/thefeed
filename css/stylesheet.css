@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Gruppo&display=swap');
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat583.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+body {
+    background-color: #cfcfcf;
+    max-width: 1200px ;
+    margin: auto;
+    font-family: 'Gruppo', sans-serif;
+}
+
+header {
+    width: 400px;
+    position: fixed;
+    top: 5px;
+    left: 3px;
+}
+
+nav {
+    width: 400px;
+    position:fixed;
+    top: 200px;
+    left: 25px;
+    font-size: x-large;
+    color: #8d9cb5;
+}
+
+main {
+    width: 650px;
+    margin-left: 500px;
+    font-family: 'Gruppo', sans-serif;
+    text-align: center;
+    font-size:x-large;
+    color: whitesmoke;
+}
+
+
+
+section {
+    background-color: #8d9cb5;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+section img {
+    position: relative;
+    border-style: inset;
+    border-color: black;
+    display:block;
+    text-align:center;
+    margin:auto;
+}
+
+section p {
+    text-align:center;
+    background-color:lightslategray;
+    border-style: inset;
+    border-color: black;
+    /* position: absolute;
+    width: 300px;
+    right: 600px;
+    left: 1150px;
+    top: 300px; */
+} 
+
+
+footer{
+    width: 400px;
+    position: fixed; 
+    bottom: 25px;
+    left: 25px;
+}
+
+#splashgif {
+    text-align:center;
+    margin: auto;
+    margin-top: 15%;
+}
