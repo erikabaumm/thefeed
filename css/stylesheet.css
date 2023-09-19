@@ -24,8 +24,19 @@ nav {
     color: #8d9cb5;
 }
 
+/* a { 
+    text-decoration: none;
+    color: #8d9cb5
+}
+
+a:hover {
+    background-color: whitesmoke
+
+} 
+*/
+
 main {
-    width: 650px;
+    width: 900px;
     margin-left: 500px;
     font-family: 'Gruppo', sans-serif;
     text-align: center;
@@ -33,17 +44,28 @@ main {
     color: whitesmoke;
 }
 
+#layout {
+    background-color: #597097;
+    width: 86%;
+    padding: 1%;
+    border-radius: 10px;
 
+}
 
 section {
     background-color: #8d9cb5;
-    margin-top: 25px;
+    text-align: center;
+    width: 75%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
     padding: 25px;
 }
 
 section img {
     position: relative;
     border-style: inset;
+    border-radius: 10px;
     border-color: black;
     display:block;
     text-align:center;
@@ -58,7 +80,7 @@ section p {
     /* position: absolute;
     width: 300px;
     right: 600px;
-    left: 1150px;
+#    left: 1150px;
     top: 300px; */
 } 
 
