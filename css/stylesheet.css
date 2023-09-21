@@ -2,7 +2,7 @@
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat583.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 body {
-    background-color: #cfcfcf;
+    background-color: #8d9cb5;
     max-width: 1200px ;
     margin: auto;
     font-family: 'Gruppo', sans-serif;
@@ -16,16 +16,43 @@ header {
 }
 
 nav {
-    background-color: #8d9cb5;
+    background-color: #cfcfcf;
     text-align: center;
     border-radius: 10px;
     width: 400px;
-    height: 500px;
+    height: 540px;
     position:fixed;
     top: 230px;
     left: 25px;
     font-size: x-large;
     color: #273a5b;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration-style: none;
+}
+
+ul li {
+    margin-bottom: 18px;
+    margin-right: 10px;
+    text-decoration-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #273a5b;
+    text-align: center;
+}
+
+a:hover {
+    color:white;
+}
+
+li:hover {
+    font-size: 30px;
+    color:#cfcfcf;
 }
 
 /* #friend_box {
@@ -57,19 +84,18 @@ main {
     background-color: #597097;
     width: 80%;
     padding: 1%;
-    border-radius: 10px;
-    border-style:dotted;
+    border-style:solid;
     border-color: #273a5b;
 
 }
 
 section {
-    background-color: #8d9cb5;
+    background-color: #cfcfcf;
     text-align: center;
     width: 75%;
-    border-radius: 10px;
-    border: solid;
-    border-color: #ffccb9;
+    border-color:#273a5b;
+    border-style: solid;
+    border-width: medium medium thick thick;
     margin: auto;
     margin-top: 5%;
     padding: 25px;
@@ -92,8 +118,10 @@ img:hover {
 section p {
     text-align:center;
     background-color: #597097;
-    border-style: inset;
-    border-color: black;
+    border-color: #273a5b;
+    border-style: solid;
+    border-width: thin thin medium medium;
+    border-radius: 8px;
     /* position: absolute;
     width: 300px;
     right: 600px;
