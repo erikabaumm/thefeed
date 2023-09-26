@@ -23,7 +23,7 @@ nav {
     border-style: solid;
     border-width: thin thin medium medium;
     width: 400px;
-    height: 540px;
+    height: 450px;
     position:fixed;
     top: 230px;
     left: 25px;
@@ -31,9 +31,21 @@ nav {
     color: #273a5b;
 }
 
+nav ul {
+    height: 300px;
+    width: 400px;
+    margin-right: 70px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     text-decoration-style: none;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 70px;
 }
 
 ul li {
@@ -41,6 +53,8 @@ ul li {
     margin-right: 10px;
     text-decoration-style: none;
     text-align: center;
+    overflow: hidden;
+    margin-right: 70px;
 }
 
 a {
@@ -48,31 +62,6 @@ a {
     color: #273a5b;
     text-align: center;
 }
-
-a:hover {
-    color:white;
-}
-
-li:hover {
-    font-size: 30px;
-    color:#cfcfcf;
-}
-
-/* #friend_box {
-    color: whitesmoke;
-    background-color: #597097;
-} */
-
-/* a { 
-    text-decoration: none;
-    color: #8d9cb5
-}
-
-a:hover {
-    background-color: whitesmoke
-
-} 
-*/
 
 main {
     width: 900px;
@@ -104,6 +93,15 @@ section {
     padding: 25px;
 }
 
+section p {
+    text-align:center;
+    background-color: #597097;
+    border-color: #273a5b;
+    border-style: solid;
+    border-width: thin thin medium medium;
+    border-radius: 8px;
+} 
+
 section img {
     position: relative;
     border-style: inset;
@@ -114,34 +112,30 @@ section img {
     margin:auto;
 }
 
-img:hover {
-    opacity: 0.8;
-}
-
-section p {
-    text-align:center;
-    background-color: #597097;
-    border-color: #273a5b;
-    border-style: solid;
-    border-width: thin thin medium medium;
-    border-radius: 8px;
-    /* position: absolute;
-    width: 300px;
-    right: 600px;
-#    left: 1150px;
-    top: 300px; */
-} 
-
-
 footer{
     width: 400px;
     position: fixed; 
     bottom: 25px;
     left: 25px;
+    color: #cfcfcf;
+    font-size: large;
 }
 
 #splashgif {
     text-align:center;
     margin: auto;
     margin-top: 15%;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+a:hover {
+    color:white;
+}
+
+li:hover {
+    font-size: 30px;
+    color:#cfcfcf;
 }
